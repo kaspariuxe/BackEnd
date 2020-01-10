@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+    }
+#filmuForma {
+    width:400px; 
+    padding:5px; 
+    border: 2px solid rgb(146, 51, 255); 
+    background-color:rgb(185, 200, 230); 
+    text-align:center; 
+    margin:10px auto;
+    }
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+    }
+@media screen and (min-width: 900px) {
+    .filmuForma {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+        }
+    }
